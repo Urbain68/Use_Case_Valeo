@@ -7,7 +7,6 @@ Setup instructions:
     To setup the project, first run the following code in a terminal in the folder to install all the required libraries:
     
     pip install -r requirements.txt
-    
     Run once the api.py script to setup and train the model and either use it by followihng the next section or kill the APi process with Ctrl+C
 
 User guide:
@@ -15,7 +14,6 @@ User guide:
     Then open the api by running the following command in a terminal :
     
     uvicorn api:app --reload
-    
     Finally, launch the request.py script in a new terminal and use it to get the predicted results of the model.
 
 Implementation Explanation:

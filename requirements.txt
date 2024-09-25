@@ -1,5 +1,6 @@
-transformers==4.21.0
+fastapi==0.100.0
+transformers==4.33.0
 datasets==2.3.2
 torch==1.11.0
-fastapi==0.78.0
 uvicorn==0.17.6
+requests==2.31.0
